@@ -1,0 +1,21 @@
+/* Navbar1 styles */
+.navbar1 {
+    background-color: #3498db; /* Navbar background color */
+    color: #ffffff; /* Text color */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Home icon styles */
+  .home-icon {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  /* Application name styles */
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
