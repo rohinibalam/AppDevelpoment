@@ -1,0 +1,143 @@
+/* Dashboard.css */
+
+/* Style for the entire Dashboard page */
+.bar {
+  display: flex;
+  /* overflow: hidden;  */
+}
+.bar1 {
+  flex: 1;
+}
+
+.title-bar {
+    background-color: #b8bdc0;
+    color: #111111;
+    text-align: center;
+    padding: 10px;
+    margin-right: -17px;
+}
+.title-bar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .bar {
+    flex-direction: column;
+  }
+  
+  .bar1 {
+    order: -5; /* Move Navbar above Sidebar */
+  }
+}
+
+/* Style for the Home Details button */
+.Homedetails {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 17px;
+  background-color:#007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  margin-left: 350px;
+  margin-top:40px;
+}
+
+.Homedetails:hover {
+  /* background-color:#2c3e50 ; */
+  background-color:#0056b3;
+}
+
+/* Style for the Service Details button */
+.Servicedetails {
+  width: 200  px;
+  font-size: 17px;
+  display: block;
+  margin: -60px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  margin-left: 650px;
+}
+
+.Servicedetails:hover {
+  background-color: #0056b3;
+}
+.Taskstatus {
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  margin-left: 950px;
+  
+}
+
+.Taskstatus:hover {
+  background-color: #0056b3;
+}
+.chart-container {
+  /* display: flex; */
+  /* display: flex; */
+  /* background-color: #fff; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(234, 21, 21, 0.1); */
+  padding: 20px; /* Reduce padding */
+  margin-bottom: 10px;
+  margin-left: 450px;
+  width: 48%; /* Reduce width to fit two containers side by side */
+}
+
+.chart-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #2c3e50; /* Background color for the footer */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Add padding to top and bottom */
+  text-align: center; /* Center-align the content */
+  position: absolute;
+  bottom: 0; /* Position at the bottom */
+  width: 100%; /* Take up the full width of the viewport */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Limit the maximum width of the footer content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Add padding to the sides */
+}
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  font-size: 14px;
+}
+
+.footer-links span {
+  cursor: pointer;
+}
+
+
