@@ -1,0 +1,49 @@
+/* Home.css */
+.Homeimage{
+  background-image:url('d:\react\homehelper\src\assets\images\house.jpg');
+  background-size: 250vh 100vh;
+  padding: 220px 200px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-container h1 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .join-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .join-button:hover {
+    background-color: #0056b3;
+  }
+  
