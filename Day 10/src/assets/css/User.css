@@ -1,0 +1,68 @@
+/* UserHome.css */
+.Userhouse{
+  background-image:url('d:\react\homehelper\src\assets\images\Userhouse.jpg');
+  background-size: 250vh 100vh;
+  padding: 220px 200px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+}
+
+.user-home {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-right-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color:black; /* Change to your desired hover color */
+}
+
+.center-content {
+  text-align: center;
+}
+
+.user-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Add margin to separate buttons from heading */
+  align-items: center;
+}
+
+.add-query-button,
+.assigned-tasks-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.add-query-button:hover,
+.assigned-tasks-button:hover {
+  background-color: #0056b3; /* Change to your desired hover color */
+}
+
+/* Customize styles based on your design requirements */
