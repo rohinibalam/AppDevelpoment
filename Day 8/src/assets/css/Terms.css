@@ -1,0 +1,42 @@
+/* Terms.css */
+
+/* Style for the entire Terms page */
+.bar {
+    /* Your styles for the sidebar */
+  }
+  
+  .bar2 {
+    /* Your styles for the second bar (Navbar) */
+  }
+  
+  .terms-and-conditions {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .terms-and-conditions h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* color: #333; */
+  }
+  
+  .terms-and-conditions p {
+    font-size: 16px;
+    line-height: 1.5;
+    /* color: #666; */
+    margin-bottom: 20px;
+  }
+  
+  .terms-and-conditions h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* You can add more styles as needed for specific elements within your Terms component */
+  
